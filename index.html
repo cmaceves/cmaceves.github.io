@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
-
+<head>
 <link rel="stylesheet" href="styles/_global.css">
 <link rel="stylesheet" href="styles/_basics.css">
 <link rel="stylesheet" href="styles/_variables.css">
 <link rel="stylesheet" href="styles/_layout.css">
 <link rel="stylesheet" href="styles/_objects.css">
 <link rel="stylesheet" href="styles/_home.css">
-
+</head>
+<body>
 <div class="home flex-column text-left d-flex">
   <div v-if="loading" class="loader">
     <font-awesome-icon class="fa-pulse fa-4x text-highlight" :icon="['fas', 'spinner']" />
@@ -41,4 +42,5 @@
    </div>
   </div>
 </div>
+</body>
 </html>
