@@ -349,21 +349,21 @@ a.SoftwareSourceCode:hover {
 .hero {
   background-position: center;
   background-size: cover;
-  background-image: url("~@/assets/hero-01.svg");
+  background-image: url("/assets/hero-01.svg");
 }
 
 .nav-hero {
   background-position: top left;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("~@/assets/navback-01.svg");
+  background-image: url("/assets/navback-01.svg");
 }
 
 .back-1 {
   background-position: bottom left;
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url("~@/assets/back1.png");
+  background-image: url("/assets/back1.png");
   min-height: 100px;
 }
 
